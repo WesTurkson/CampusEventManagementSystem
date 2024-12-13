@@ -81,12 +81,12 @@ export const CreateEventForm = ({ onEventCreated }) => {
       };
 
       await createEvent(transformedData);
+      toast.success("Event created successfully")
       onEventCreated();
     } catch (error) {
       console.log(error);
-      const errorMessage =
-        error.response?.data?.message || "Failed to create event";
-      toast.error(errorMessage);
+      const errorMessage = "Failed to create event";
+      error.response?.data?.error && toast.error(errorMessage);
     }
   };
 
