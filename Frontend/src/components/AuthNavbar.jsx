@@ -8,7 +8,7 @@ const AuthNavbar = () => {
       <div className='flex w-full items-center justify-center space-x-4'>
         <Link to='/' className='flex items-center r space-x-2'>
           <FaBook className=' h-8 md:h-11' />
-          <h1 className='text-xl font-bold text-black'>EventBook</h1>
+          <h1 className='text-xl font-bold text-black'>Acity Event Book</h1>
         </Link>
       </div>
     </nav>

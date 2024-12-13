@@ -26,6 +26,7 @@ api.interceptors.request.use(
 api.interceptors.response.use(
   (response) => response,
   (error) => {
+    console.log(error)
     const message = error.response?.data?.message || "An error occurred";
     const code = error.response?.status || null; // Capture the error code
     return Promise.reject({ message, code }); // Return both message and code
