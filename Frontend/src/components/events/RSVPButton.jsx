@@ -13,6 +13,8 @@ const RSVPButton = ({ event, onRSVP }) => {
   const [isEventFull, setIsEventFull] = useState(false);
   const [isEventPassed, setIsEventPassed] = useState(false);
 
+  const isAdmin = user?.role === 'admin';
+
   useEffect(() => {
     setIsUserRSVPed(
       event.attendees.some((attendee) => attendee?.user?._id === user?.id)
@@ -92,20 +94,24 @@ const RSVPButton = ({ event, onRSVP }) => {
         </button>
       )}
       </div>
-      <button
-              onClick={()=> {deleteEvent(event._id)
-                .then(()=> {
-                  toast.success("Event deleted successfully");
-                  onRSVP && onRSVP(event);
-                })
-                .catch((error)=> {
-                  toast.error("Failed to delete event");
-                })
-              }}
-              className='w-full bg-red-500 text-white px-4 py-2 rounded-lg mt-2'
-            >
-              Delete
-            </button>
+      {isAdmin && (
+        <button
+          onClick={() => {
+            deleteEvent(event._id)
+              .then(() => {
+                toast.success("Event deleted successfully");
+                onRSVP && onRSVP(event);
+              })
+              .catch((error) => {
+                console.log(error)
+                toast.error("Failed to delete event");
+              })
+          }}
+          className='w-full bg-red-500 text-white px-4 py-2 rounded-lg mt-2'
+        >
+          Delete
+        </button>
+      )}
     </div>
   );
 };
