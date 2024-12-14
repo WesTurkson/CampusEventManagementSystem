@@ -23,7 +23,4 @@ The Campus Event Management System is a web-based application designed to stream
 | Event Calendar View             | ✅ Completed  |
 
 ## **Installation Instructions**
-1. **Clone the repository:**  
-   ```bash
-   git clone https://github.com/yourusername/campus-event-management.git
-   cd campus-event-management
+
