@@ -15,8 +15,6 @@ The Campus Event Management System is a web-based application designed to stream
   - Password: `User12345`  
 
 ## **Feature Checklist**
-## **Feature Checklist**
-
 | Feature                                       | Status        |
 |-----------------------------------------------|---------------|
 | User Registration with Event Preferences      | ✅ Completed  |
@@ -69,4 +67,5 @@ Ensure the following tools are installed on your machine:
    cd npm run start
 
 ## **API Documentation**
+
    
