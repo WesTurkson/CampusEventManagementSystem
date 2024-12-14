@@ -68,4 +68,5 @@ Ensure the following tools are installed on your machine:
 
 ## **API Documentation**
 
-   
+   ![Screenshot (33)](https://github.com/user-attachments/assets/f5c16adc-bc53-4cf5-863e-c2ec28c296c3)
+
