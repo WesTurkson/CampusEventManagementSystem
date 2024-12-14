@@ -6,21 +6,34 @@ The Campus Event Management System is a web-based application designed to stream
 ## **Deployment Link**
 [Campus Event Management System - Live Demo](https://web-tech-exam-flax.vercel.app)
 
-## **Login Details**
+## **Login Details for Testing**
 - **Admin**  
   - Username: `jondoe@gmail.com`  
   - Password: `Jondoe123`  
 - **User**  
-  - Username: `setsat2022@gmail.com`  
-  - Password: `Gbevu10`  
+  - Username: `usertest@gmail.com`  
+  - Password: `User12345`  
 
 ## **Feature Checklist**
-| Feature                         | Status        |
-|---------------------------------|---------------|
-| User Registration & Preferences | ✅ Completed  |
-| Event Listings & RSVP           | ✅ Completed  |
-| Event Creation (Admin Only)     | ✅ Completed  |
-| Event Calendar View             | ✅ Completed  |
+## **Feature Checklist**
+
+| Feature                                       | Status        |
+|-----------------------------------------------|---------------|
+| User Registration with Event Preferences      | ✅ Completed  |
+| User Login and Authentication                 | ✅ Completed  |
+| View Upcoming Events with Details             | ✅ Completed  |
+| RSVP for Events with Real-Time Seat Updates   | ✅ Completed  |
+| Admin Login for Event Management              | ✅ Completed  |
+| Event Creation by Admin (with capacity limits)| ✅ Completed  |
+| Personalized Event Recommendations            | ✅ Completed  |
+| Event Calendar View with Filters              | ✅ Completed  |
+| Search Functionality for Events               | ✅ Completed  |
+| Store RSVP Events in User Profiles            | ✅ Completed  |
+| Responsive UI for Desktop and Mobile Devices  | ✅ Completed  |
+| API Endpoints for Events and Users            | ✅ Completed  |
+| Data Validation for Forms                     | ✅ Completed  |
+| Integration with Backend for Event Management | ✅ Completed  |
+| Environment Variable Support for Flexibility  | ✅ Completed  |
 
 ## **Installation Instructions**
 
